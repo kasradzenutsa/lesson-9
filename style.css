@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+.nav-icon {
+position: absolute;
+width: 120px;
+height: 1117px;
+left: -4.46px;
+top: 1.86px;
+
+background: #FFC297;
+}
+.logo-icon {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 22.79px;
+top: 32.65px;
+}
+.home-icon {
+position: absolute;
+left: 35.43%;
+right: 8.24%;
+top: 13.25%;
+bottom: 15.92%;
+
+background: #FF7008;
+}
+.ring-icon {
+    position: absolute;
+left: 35.75%;
+right: 16.58%;
+top: 20.08%;
+bottom: 7.67%;
+
+background: #FF7008;
+}
+.task-icon {
+position: absolute;
+left: 35.37%;
+right: 8.3%;
+top: 27.92%;
+bottom: 3.42%;
+background: #FF7008;
+}
+.stats-icon {
+position: absolute;
+left: 35.52%;
+right: 8.15%;
+top: 36.69%;
+bottom: 22.23%;
+background: #FF7008;
+}
+.user-icon {
+position: absolute;
+left: 35.8%;
+right: 16.54%;
+top: 47.35%;
+bottom: 15.98%;
+background: #FF7008;    
+}
+.setting-icon{
+position: absolute;
+width: 81px;
+height: 81px;
+left: 22.59px;
+top: 1008.68px;
+border-radius: 50%;
+background: #FF7008;
+}
+.settings {
+position: absolute;
+width: 122.41px;
+height: 38px;
+left: 190.02px;
+top: 41.31px;
+
+}
+.pencil-icon {
+    position: absolute;
+left: 8.6%;
+right: 12.39%;
+top: 14.23%;
+bottom: 15.77%;
+}
+.fonts {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+color: #1C1C1C;
+}
+.profile {
+position: absolute;
+width: 143.34px;
+height: 33px;
+left: 233.95px;
+top: 142.96px;
+}
+.notification-ring {
+position: absolute;
+left: 8.40%;
+right: 16.59%;
+top: 21.11%;
+bottom: 7.64%;
+height: 25px;
+width: 25px;
+}
+.notification{
+position: absolute;
+width: 153.8px;
+height: 33px;
+left: 232.88px;
+top: 220.98px;
+color: #858585;
+}
+.lock-icon {
+height: 25px;
+width: 25px;
+position: absolute;
+left: 8.40%;
+right: 16.64%;
+top: 28.86%;
+bottom: 7.64%;
+}
+.security {
+position: absolute;
+width: 107.76px;
+height: 33px;
+left: 233.86px;
+top: 299.97px;
+color: #858585;
+}
+.app {
+position: absolute;
+left: 8.52%;
+right: 9.42%;
+top: 38.09%;
+bottom: 7.58%;
+height: 25px;
+width: 25px;
+}
+.appearance{
+position: absolute;
+width: 156.94px;
+height: 33px;
+left: 234.84px;
+top: 398.97px;
+color: #858585;
+}
+.question {
+position: absolute;
+left: 8.4%;
+right: 8.27%;
+top: 49.1%;
+bottom: 7.57%;
+height: 25px;
+width: 25px;
+}
+.help{
+position: absolute;
+width: 60.68px;
+height: 33px;
+left: 235.81px;
+top: 514.96px;
+color: #858585;
+}
+.profile-edit {
+position: absolute;
+width: 232px;
+height: 53px;
+left: 604px;
+top: 70px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 53px;
+color: #000000;
+}
+.firstname {
+position: absolute;
+width: 405px;
+height: 70px;
+left: 604px;
+top: 254px;
+
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registration-name {
+position: absolute;
+width: 128px;
+height: 30px;
+left: 604px;
+top: 216px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.lastname {
+position: absolute;
+width: 407px;
+height: 70px;
+left: 1073px;
+top: 254px;
+
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registration-lastname {
+position: absolute;
+width: 126.62px;
+height: 30px;
+left: 1073px;
+top: 216px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.email{
+position: absolute;
+width: 873px;
+height: 70px;
+left: 604px;
+top: 380px;
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registration-email {
+position: absolute;
+width: 275.91px;
+height: 30px;
+left: 604px;
+top: 342px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.Adress{
+position: absolute;
+width: 876px;
+height: 70px;
+left: 604px;
+top: 506px;
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registration-adress{
+position: absolute;
+width: 276.86px;
+height: 30px;
+left: 604px;
+top: 468px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.phonenumber{
+position: absolute;
+width: 876px;
+height: 70px;
+left: 604px;
+top: 632px;
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registration-phone {
+position: absolute;
+width: 276.86px;
+height: 30px;
+left: 604px;
+top: 594px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.city {
+position: absolute;
+width: 405px;
+height: 70px;
+left: 604px;
+top: 758px;
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registation-city {
+position: absolute;
+width: 46px;
+height: 30px;
+left: 604px;
+top: 720px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.state{
+position: absolute;
+width: 410px;
+height: 70px;
+left: 1070px;
+top: 758px;
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registation-state {
+position: absolute;
+width: 62.77px;
+height: 30px;
+left: 1070px;
+top: 720px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.password {
+position: absolute;
+width: 876px;
+height: 70px;
+left: 604px;
+top: 884px;
+background: #FFFFFF;
+border: 2px solid #858585;
+border-radius: 5px;
+}
+.registration-pass{
+position: absolute;
+width: 275.91px;
+height: 30px;
+left: 604px;
+top: 846px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+color: #1C1C1C;
+}
+.cancel-click {
+position: absolute;
+width: 180px;
+height: 55px;
+left: 601px;
+top: 1007px;
+background: #FFFFFF;
+border: 2px solid #FF7008;
+border-radius: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #FF7008;
+}
+.save-click {
+position: absolute;
+width: 180px;
+height: 55px;
+left: 821px;
+top: 1007px;
+background: #FF7008;
+border-radius: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+color: #FFFFFF;
+}
